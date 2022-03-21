@@ -5,7 +5,6 @@
 	<remote name="st" fetch="https://github.com/w1zzylvayustuff" />
 	
 	<!-- Trash -->
-	<remove-project name="hardware_xiaomi" />
 	<remove-project name="packages_resources_devicesettings" />
 
 	<!-- Replacements -->
