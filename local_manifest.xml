@@ -17,5 +17,6 @@
 	
 	<!-- Addons -->
 	<project path="hardware/xiaomi" name="hardware_xiaomi" revision="twelve" remote="st" />
+	<project path="vendor/xiaomi/devicesettings" name="vendor_xiaomi_device_settings" revision="wip" remote="st" />
 	
 </manifest>
