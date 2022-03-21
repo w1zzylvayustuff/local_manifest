@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+	<!-- Remotes -->
+	<remote name="st" fetch="https://github.com/w1zzylvayustuff" />
+	
+	<!-- Trash -->
+	<remove-project name="hardware_xiaomi" />
+	<remove-project name="packages_resources_devicesettings" />
+
+	<!-- Replacements -->
+	<project path="hardware/xiaomi" name="hardware_xiaomi" revision="twelve" remote="st" />
+	<project path="packages/resources/devicesettings" name="packages_resources_devicesettings" revision="lineage-19.0" remote="st" />
+
+	<!-- Trees -->
+	<project path="device/xiaomi/vayu" name="device_xiaomi_vayu" revision="pixelos" remote="st" />
+	<project path="kernel/xiaomi/vayu" name="kernel_xiaomi_vayu" revision="r2" remote="st" />
+	<project path="vendor/xiaomi/vayu" name="android_vendor_xiaomi_vayu" revision="arrow-12.0" remote="st" />
+	
+</manifest>
