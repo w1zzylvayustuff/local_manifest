@@ -5,9 +5,9 @@
 	<remote name="st" fetch="https://github.com/w1zzylvayustuff" />
 
 	<!-- Trees -->
-	<project path="device/xiaomi/vayu" name="device_xiaomi_vayu" revision="pixelos" remote="st" />
-	<project path="kernel/xiaomi/vayu" name="kernel_xiaomi_vayu" revision="r2" remote="st" />
-	<project path="vendor/xiaomi/vayu" name="android_vendor_xiaomi_vayu" revision="arrow-12.0" remote="st" />
+	<project path="device/xiaomi/vayu" name="device_xiaomi_vayu" revision="arcana" remote="st" />
+	<project path="kernel/xiaomi/vayu" name="android_kernel_xiaomi_vayu" revision="arrow-12.1" remote="st" />
+	<project path="vendor/xiaomi/vayu" name="android_vendor_xiaomi_vayu" revision="arrow-12.1" remote="st" />
 	
 	<!-- Addons -->
 	<project path="hardware/xiaomi" name="hardware_xiaomi" revision="twelve" remote="st" />
