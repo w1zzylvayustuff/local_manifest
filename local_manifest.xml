@@ -3,12 +3,6 @@
 
 	<!-- Remotes -->
 	<remote name="st" fetch="https://github.com/w1zzylvayustuff" />
-	
-	<!-- Trash -->
-	<remove-project name="packages_resources_devicesettings" />
-
-	<!-- Replacements -->
-	<project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" revision="lineage-19.0" remote="st" />
 
 	<!-- Trees -->
 	<project path="device/xiaomi/vayu" name="device_xiaomi_vayu" revision="pixelos" remote="st" />
@@ -17,6 +11,5 @@
 	
 	<!-- Addons -->
 	<project path="hardware/xiaomi" name="hardware_xiaomi" revision="twelve" remote="st" />
-	<project path="vendor/xiaomi/devicesettings" name="vendor_xiaomi_device_settings" revision="wip" remote="st" />
 	
 </manifest>
