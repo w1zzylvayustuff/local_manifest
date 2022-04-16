@@ -12,7 +12,7 @@
 	
         <!-- Trash -->
         <remove-project name="platform_packages_resources_devicesettings"
-        <project path="packages/resources/devicesettings" name="platform_packages_resources_devicesettings" remote="aex" revision="12.x" />
+        <project path="packages/resources/devicesettings" name="platform_packages_resources_devicesettings" revision="12.1" remote="aex" />
 
 	<!-- Addons -->
 	<project path="hardware/xiaomi" name="hardware_xiaomi" revision="twelve" remote="st" />
