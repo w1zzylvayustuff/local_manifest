@@ -6,7 +6,7 @@
 
 	<!-- Trees -->
 	<project path="device/xiaomi/vayu" name="device_xiaomi_vayu" revision="arcana-12.1" remote="st" />
-	<project path="kernel/xiaomi/vayu" name="android_kernel_xiaomi_vayu" revision="arrow-12.1" remote="st" />
+	<project path="kernel/xiaomi/vayu" name="android_kernel_xiaomi_vayu-mochi" revision="r2" remote="st" />
 	<project path="vendor/xiaomi/vayu" name="android_vendor_xiaomi_vayu" revision="arrow-12.1" remote="st" />
 	
 	<!-- Addons -->
