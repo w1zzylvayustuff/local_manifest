@@ -10,6 +10,9 @@
 	<project path="kernel/xiaomi/vayu" name="android_kernel_xiaomi_vayu" revision="arrow-12.1" remote="st" />
 	<project path="vendor/xiaomi/vayu" name="android_vendor_xiaomi_vayu" revision="arrow-12.1" remote="st" />
 
+        <!-- Trash -->
+        <remove-project name="platform_packages_resources_devicesettings
+
 	<!-- Addons -->
 	<project path="hardware/xiaomi" name="hardware_xiaomi" revision="twelve" remote="st" />
 	<project path="packages/resources/devicesettings" name="platform_packages_resources_devicesettings" revision="12.x" remote="aex" />
