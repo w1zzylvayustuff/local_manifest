@@ -3,7 +3,7 @@
 
 	<!-- Remotes -->
 	<remote name="st" fetch="https://github.com/w1zzylvayustuff" />
-	<remote name="aex" fetch="https://github.com/AospExtended" />
+	<remote name="los" fetch="https://github.com/LineageOS" />
 
 	<!-- Trees -->
 	<project path="device/xiaomi/vayu" name="device_xiaomi_vayu" revision="aex-12.1" remote="st" />
@@ -15,6 +15,6 @@
 
 	<!-- Addons -->
 	<project path="hardware/xiaomi" name="hardware_xiaomi" revision="twelve" remote="st" />
-	<project path="packages/resources/devicesettings" name="platform_packages_resources_devicesettings" revision="12.x" remote="aex" />
+	<project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" revision="lineage-19.1" remote="los" />
 
 </manifest>
