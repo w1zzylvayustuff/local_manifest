@@ -5,6 +5,7 @@
 	<remote name="st" fetch="https://github.com/w1zzylvayustuff" />
         <remote name="los" fetch="https://github.com/LineageOS />
 	<remote name="chaldea" fetch="https://github.com/chaldeaprjkt" />
+	<remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
 
 	<!-- Trees -->
 	<project path="device/xiaomi/vayu" name="device_xiaomi_vayu" revision="aex-12.1" remote="st" />
