@@ -13,6 +13,7 @@
 	<project path="vendor/xiaomi/vayu" name="android_vendor_xiaomi_vayu" revision="arrow-12.1" remote="st" />
 
         <!-- Addons -->
-        <project path="hardware/xiaomi" name="android_hardware_xiaomi" revision="lineage-19.1" remote="los" /
+        <project path="hardware/xiaomi" name="android_hardware_xiaomi" revision="lineage-19.1" remote="los" />
+	<project path="prebuilts/clang/host/linux-x86/proton" name="proton-clang" revision="master" remote="kdrag0n" />
 
 </manifest>
