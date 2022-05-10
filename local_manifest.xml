@@ -2,18 +2,13 @@
 <manifest>
 
 	<!-- Remotes -->
-	<remote name="st" fetch="https://github.com/w1zzylvayustuff" />
-        <remote name="los" fetch="https://github.com/LineageOS />
-	<remote name="chaldea" fetch="https://github.com/chaldeaprjkt" />
-	<remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
+        <remote name="me" fetch="https://github.com/w1zzyl" />
+	<remote name="st" fetch="https://github.com/raghavt20" />
+        <remote name="x3p" fetch="https://github.com/poco-x3p" />
 
 	<!-- Trees -->
-	<project path="device/xiaomi/vayu" name="device_xiaomi_vayu" revision="aex-12.1" remote="st" />
-	<project path="kernel/xiaomi/vayu" name="kernel_xiaomi_vayu" revision="main" remote="chaldea" />
-	<project path="vendor/xiaomi/vayu" name="android_vendor_xiaomi_vayu" revision="arrow-12.1" remote="st" />
-
-        <!-- Addons -->
-        <project path="hardware/xiaomi" name="android_hardware_xiaomi" revision="lineage-19.1" remote="los" />
-	<project path="prebuilts/clang/host/linux-x86/proton" name="proton-clang" revision="master" remote="kdrag0n" />
+	<project path="device/xiaomi/vayu" name="device_xiaomi_vayu-cherish" revision="cherish" remote="me" />
+	<project path="kernel/xiaomi/sm8150" name="kernel_sm8150" revision="12.1" remote="st" />
+	<project path="vendor/xiaomi/vayu" name="android_vendor_xiaomi_vayu" revision="12.1" remote="x3p" />
 
 </manifest>
