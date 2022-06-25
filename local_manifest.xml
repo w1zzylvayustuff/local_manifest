@@ -3,7 +3,7 @@
 
 	<!-- Remotes -->
         <remote name="me" fetch="https://github.com/w1zzyl" />
-	<remote name="d" fetch"https://github.com/w1zzylvayustuff" />
+	<remote name="d" fetch="https://github.com/w1zzylvayustuff" />
 	<remote name="st" fetch="https://github.com/raghavt20" />
         <remote name="x3p" fetch="https://github.com/poco-x3p" />
         <remote name="los" fetch="https://github.com/LineageOS" />
