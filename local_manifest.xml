@@ -6,10 +6,14 @@
 	<remote name="d" fetch"https://github.com/w1zzylvayustuff" />
 	<remote name="st" fetch="https://github.com/raghavt20" />
         <remote name="x3p" fetch="https://github.com/poco-x3p" />
+        <remote name="los" fetch="https://github.com/LineageOS" />
 
 	<!-- Trees -->
 	<project path="device/xiaomi/vayu" name="device_xiaomi_vayu-flos" revision="lineage-19.1" remote="me" />
 	<project path="kernel/xiaomi/sm8150" name="kernel_sm8150" revision="12.1" remote="st" />
 	<project path="vendor/xiaomi/vayu" name="android_vendor_xiaomi_vayu" revision="12.1" remote="x3p" />
+
+        <!-- Addons -->
+        <project path="hardware/xiaomi" name="android_hardware_xiaomi" revision="lineage-19.1" remote="los" />
 
 </manifest>
